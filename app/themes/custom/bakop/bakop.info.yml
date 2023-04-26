@@ -6,10 +6,10 @@ package: Bakop
 core_version_requirement: ^10
 regions:
   header: 'Header'
-  primary_menu: 'Main menu'
+  primary_menu: 'Primary menu'
   secondary_menu: 'Secondary menu'
   breadcrumb: 'Breadcrumb'
-  helper: 'Helper'
+  help: 'Help'
   content: 'Content'
   footer: 'Footer'
   disabled: 'Disabled'
