@@ -1,0 +1,23 @@
+uuid: c1be3a55-270c-49b5-994b-8b478d996acb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - bakop
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: bakop_syndicate
+theme: bakop
+region: disabled
+weight: -6
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

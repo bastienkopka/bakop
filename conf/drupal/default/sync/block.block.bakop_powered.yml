@@ -1,0 +1,22 @@
+uuid: 58701c53-7941-4464-9c7f-5c0544a54a03
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bakop
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: bakop_powered
+theme: bakop
+region: disabled
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

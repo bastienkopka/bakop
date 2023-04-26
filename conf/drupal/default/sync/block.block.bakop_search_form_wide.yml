@@ -1,0 +1,23 @@
+uuid: 4a03f698-a702-4d0f-b922-54ba89cd4714
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - bakop
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: bakop_search_form_wide
+theme: bakop
+region: disabled
+weight: -6
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 200e3f62-1015-4d3e-b770-5e5192f6fcc6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bakop
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: bakop_content
+theme: bakop
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
