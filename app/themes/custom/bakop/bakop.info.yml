@@ -1,0 +1,15 @@
+name: bakop
+type: theme
+base theme: false
+description: 'Personnal theme for bakop website'
+package: Bakop
+core_version_requirement: ^10
+regions:
+  header: 'Header'
+  primary_menu: 'Main menu'
+  secondary_menu: 'Secondary menu'
+  breadcrumb: 'Breadcrumb'
+  helper: 'Helper'
+  content: 'Content'
+  footer: 'Footer'
+  disabled: 'Disabled'
