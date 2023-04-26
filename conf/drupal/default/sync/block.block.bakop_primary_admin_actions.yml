@@ -1,6 +1,6 @@
 uuid: 74505658-7f43-4acd-817c-732517e7b137
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - bakop
@@ -8,8 +8,8 @@ _core:
   default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
 id: bakop_primary_admin_actions
 theme: bakop
-region: disabled
-weight: -2
+region: header
+weight: -7
 provider: null
 plugin: local_actions_block
 settings:

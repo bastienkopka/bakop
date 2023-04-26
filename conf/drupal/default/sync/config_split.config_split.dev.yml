@@ -1,0 +1,17 @@
+uuid: d6ec3a60-ffb5-4391-ac85-59e5042e86bd
+langcode: fr
+status: false
+dependencies: {  }
+id: dev
+label: dev
+description: ''
+weight: 0
+folder: ../conf/drupal/default/dev
+module:
+  devel: 0
+  devel_php: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
