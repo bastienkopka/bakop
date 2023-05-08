@@ -5,9 +5,13 @@ dependencies:
   config:
     - system.menu.main
   module:
+    - block_class
     - system
   theme:
     - bakop
+third_party_settings:
+  block_class:
+    classes: 'header__navigation js-navigation'
 _core:
   default_config_hash: KWAiziL39uEzmOJEql_wbUP2RtqGceL3WM2CfxhMelE
 id: bakop_main_menu
