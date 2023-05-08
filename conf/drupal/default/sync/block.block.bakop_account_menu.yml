@@ -12,7 +12,7 @@ _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
 id: bakop_account_menu
 theme: bakop
-region: primary_menu
+region: disabled
 weight: -6
 provider: null
 plugin: 'system_menu_block:account'

@@ -1,0 +1,21 @@
+uuid: caf66bda-1ccc-4cbe-99c4-47809c5315f5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title_type
+    - paragraphs.paragraphs_type.paragraph_basic
+  module:
+    - options
+id: paragraph.paragraph_basic.field_title_type
+field_name: field_title_type
+entity_type: paragraph
+bundle: paragraph_basic
+label: 'Type de titre'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

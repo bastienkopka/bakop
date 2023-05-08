@@ -1,0 +1,33 @@
+uuid: 7e0ecf23-cd4b-45e1-92ff-b9ef20e3112e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_title_type
+field_name: field_title_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: h1
+      label: 'Titre h1'
+    -
+      value: h2
+      label: 'Titre h2'
+    -
+      value: h3
+      label: 'Titre h3'
+    -
+      value: p
+      label: 'Titre p'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
