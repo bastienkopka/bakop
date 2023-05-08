@@ -15,6 +15,7 @@ docker-up:
 
 docker-install: docker-init docker-up
 	$(DOCKER_COMPOSE) exec -u $(DOCKER_USERNAME) php bash ./scripts/install.sh
+	$(DOCKER_COMPOSE) exec node sh -c 'cd /var/www/app/themes/custom/$(PROJECT_NAME) && npm install'
 
 docker-stop:
 	$(DOCKER_COMPOSE) stop
@@ -22,6 +23,9 @@ docker-stop:
 
 docker-shell:
 	$(DOCKER_COMPOSE) exec -u $(DOCKER_USERNAME) php sh
+
+docker-compile-assets:
+	$(DOCKER_COMPOSE) exec node sh -c 'cd /var/www/app/themes/custom/$(PROJECT_NAME) && npm run build'
 
 ### Quality tools.
 quality-phpcs:

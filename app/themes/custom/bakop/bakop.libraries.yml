@@ -1,0 +1,7 @@
+global:
+  version: 1.0.0
+  css:
+    theme:
+      dist/css/main.min.css: {}
+  js:
+    dist/js/main.min.js: {}
