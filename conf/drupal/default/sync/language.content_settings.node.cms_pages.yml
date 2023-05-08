@@ -1,0 +1,16 @@
+uuid: 6a6d963e-3eda-4d8c-b326-4570679101f7
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.cms_pages
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.cms_pages
+target_entity_type_id: node
+target_bundle: cms_pages
+default_langcode: site_default
+language_alterable: false

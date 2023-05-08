@@ -3,7 +3,6 @@
   <file>../../../conf/drupal</file>
   <file>../../../app/modules/custom</file>
   <file>../../../app/themes/custom</file>
-  <file>../../../conf/drupal</file>
 
   <arg name="basepath" value="."/>
   <arg name="colors"/>

@@ -1,0 +1,31 @@
+uuid: 5e9a1133-e07d-4590-b835-e7bdbffa7aeb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.cms_pages.field_paragraphs
+    - node.type.cms_pages
+  module:
+    - entity_reference_revisions
+    - user
+id: node.cms_pages.default
+targetEntityType: node
+bundle: cms_pages
+mode: default
+content:
+  field_paragraphs:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

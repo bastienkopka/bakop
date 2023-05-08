@@ -1,0 +1,23 @@
+uuid: 54cda4a6-035f-425c-92f7-b0e5400daaab
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cms_pages.field_paragraphs
+    - node.type.cms_pages
+  module:
+    - user
+id: node.cms_pages.teaser
+targetEntityType: node
+bundle: cms_pages
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_paragraphs: true
+  langcode: true
