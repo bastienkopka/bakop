@@ -6,7 +6,7 @@ id: dev
 label: dev
 description: ''
 weight: 0
-folder: ../conf/drupal/default/dev
+folder: /var/www/app/../conf/drupal/default/dev
 module:
   devel: 0
   devel_php: 0
