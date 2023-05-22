@@ -13,3 +13,5 @@ regions:
   content: 'Content'
   footer: 'Footer'
   disabled: 'Disabled'
+libraries:
+  - bakop/global

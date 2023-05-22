@@ -2,6 +2,6 @@ global:
   version: 1.0.0
   css:
     theme:
-      dist/css/main.min.css: {}
+      dist/assets/css/main.min.css: {}
   js:
-    dist/js/main.min.js: {}
+    dist/assets/js/main.min.js: {}
