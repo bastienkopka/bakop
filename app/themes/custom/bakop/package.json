@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Bundler for js, css files",
   "scripts": {
-    "build": "webpack"
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
   },
+
   "author": "Bastien KOPKA",
   "license": "ISC",
   "browserslist": [
