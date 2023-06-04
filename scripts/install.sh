@@ -22,7 +22,7 @@ if [ "${DRUPAL_HAS_EXPORTED_CONFIG}" = "true" ]; then
 		--existing-config \
 		-y
 else
-  drush site:install standard \
+  drush site:install minimal \
     --site-name="${DRUPAL_SITE_NAME}" \
     --site-mail="${DRUPAL_SITE_EMAIL}" \
     --account-mail="${DRUPAL_SITE_EMAIL}" \
